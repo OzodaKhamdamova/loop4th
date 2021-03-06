@@ -128,9 +128,14 @@ header{
     padding-top: 10px;
     padding-left: 15px;
 }
+.last-hr{
+    margin-right: 20px;
+}
 .new-msg{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10px;
+    
 }
 .enter-text{
     color: rgb(214, 214, 214);
