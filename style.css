@@ -1,0 +1,145 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background:#8eb5f5;
+
+}
+.wrapper{
+    width: 500px;
+    background-color:white;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header{
+    width: 500px;
+    height: 60px;
+    background: #0078ff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.name-chat{
+    padding-top: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.exit{
+    padding-right: 15px;
+}
+.chat{
+    padding-left: 30px;
+
+}
+.day{
+    display: flex;
+    font-size: 17px;
+    color: #999;
+}
+.line{
+    width: 200px;
+    height: 2px;
+    padding-top: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.time{
+    color: #999;
+}
+
+.msg-user{
+    width: 280px;
+    height: 40px;
+    background-color:  #a7bbc0;
+    padding: 10px;
+    position: relative;
+}
+.msg-user:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+    left: -20px;
+	right: auto;
+    top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: #a7bbc0 transparent transparent transparent;
+}
+
+.second-msg{
+    margin-left: 130px;
+}
+
+.msg-mark{
+    width: 280px;
+    height: 40px;
+    background-color: #ddd;
+    padding: 10px;
+    position: relative;
+    
+}
+.msg-mark:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid #ddd;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ddd;
+    border-bottom: 10px solid transparent;
+    right: -20px;
+    top: 6px;
+  }
+.msg-user-last{
+    width: 100px;
+    height: 20px;
+    background-color: #a7bbc0;
+    padding: 10px;
+    position: relative;
+}
+.msg-user-last:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+    left: -20px;
+	right: auto;
+    top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: #a7bbc0 transparent transparent transparent;
+}
+.fourth-msg{
+    margin-left: 130px;  
+}
+.blocked{
+    width: 280px;
+    height: 30px;
+    background-color: violet;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.new-msg{
+    display: flex;
+    justify-content: space-between;
+}
+.enter-text{
+    color: rgb(214, 214, 214);
+}
+.btn{
+    background-color: white;
+    color: #9ec3ff;
+    border: white;
+    
+}
+
+
+
+
