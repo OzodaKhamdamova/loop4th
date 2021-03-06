@@ -1,5 +1,6 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 15px;
     background:#8eb5f5;
 
@@ -26,8 +27,8 @@ header{
 
 .name-chat{
     padding-top: 8px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    
+    font-weight: 700;
 }
 .exit{
     padding-right: 15px;
